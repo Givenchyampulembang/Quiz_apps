@@ -11,7 +11,7 @@ final GoRouter router = GoRouter(
         GoRoute(
           path: 'quis',
           builder: (context, state) {
-            return const QuisPage();
+            return QuisPage();
           },
         ),
       ],
